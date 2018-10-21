@@ -1,2 +1,14 @@
     /* font-family: 'Source Sans Pro', sans-serif;
-    font-family: 'Montserrat', sans-serif; */
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Montserrat Alternates', sans-serif; */
+
+
+body {
+
+}
+
+header {
+  height: 1040px;
+  background-image: url("../img/hero.png");
+  background-repeat: no-repeat;
+}
