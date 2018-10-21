@@ -4,11 +4,89 @@
 
 
 body {
-
+  background-color: #1f202b;
+  font-family: 'Anonymous Pro', monospace;
 }
 
+#portfolio,
+#about,
+#contact {
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 600px;
+}
+
+p {
+  color: #fff;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+/***** HEADER *****/
 header {
-  height: 1040px;
-  background-image: url("../img/hero.png");
+  background-image: url("../img/hero-background.png");
   background-repeat: no-repeat;
+  height: 1000px;
+}
+
+header h1 {
+  color: #fff;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 25px 30px 25px 0;
+  z-index: 100px;
+}
+
+.nav {
+  float: right;
+
+}
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 80px;
+    text-transform: lowercase;
+    text-decoration: none;
+    z-index: 100;
+}
+
+ h2 {
+   color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: semibold;
+  font-size: 72px;
+  padding: 194px 300px 300px 105px;
+  text-transform: lowercase;
+  clear: left;
+  z-index: 55;
+}
+
+h2 span {
+  color: #fa0075;
+}
+
+
+/***** PORTFOLIO *****/
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fa0075;
+  font-size: 38px;
+  margin-bottom: 112px;
+  padding-bottom: 200px;
+  text-align: center;
 }
