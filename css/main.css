@@ -5,54 +5,59 @@
 /***** BASE STYLES *****/
 *{
   box-sizing: border-box;
+  /* border: 1px solid yellow; */
 }
 
 body {
   color: #fff;
   background-color: #1f202b;
   font-family: 'Anonymous Pro', monospace;
-  margin: 0 auto;
-  width: 100%;
 }
 
-p {
-  font-family: 'Montserrat Alternates', sans-serif;
+.container-fluid {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
 }
 
 /***** HEADER *****/
 header {
   background-image: url("../img/hero-background.png");
   background-repeat: no-repeat;
-  height: 856px;
+  height: 716px;
 }
 
 header h1 {
   color: #fff;
+  display: inline;
+  float: left;
   font-family: 'Anonymous Pro', monospace;
-  font-size: 25px;
-  margin: 0 auto;
-  padding: 25px 30px 25px 0;
-  z-index: 100px;
+  font-size: 30px;
+  margin: 25px 30px 0px 25px;
 }
 
-.nav {
+h1 span {
+  padding-left: 95px;
+}
+
+header nav {
   float: right;
-
-}
-nav ul li {
-    display: inline-block;
+  padding: 10px 30px;
 }
 
-nav ul li a {
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 25px;
-    font-weight: bold;
-    color: #fff;
-    padding-left: 80px;
-    text-transform: lowercase;
-    text-decoration: none;
-    z-index: 100;
+header nav ul li {
+  display: inline;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 0 10px;
+  text-transform: lowercase;
 }
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
 
  h2 {
   color: #fff;
@@ -60,7 +65,7 @@ nav ul li a {
   font-weight: 600;
   font-size: 72px;
   margin-bottom: 54px;
-  padding: 194px 300px 300px 105px;
+  padding: 309px 105px 109px 95px;
   text-transform: lowercase;
   clear: left;
   z-index: 55;
@@ -87,6 +92,7 @@ h2 span {
   display: inline;
   clear: both;
 }
+
   /*** h4 ***/
 .my-manifesto {
   font-family: 'Anonymous Pro', monospace;
@@ -109,16 +115,21 @@ h2 span {
 }
 
 /*****  rogue pickings *****/
- /*** image ***/
+/* .col-rogue {
+  margin-top: 110px;
+  padding-top: 103px;
+} */
+
  .row-2 {
-   padding-top: 103px;
+   padding-top: 100px;
    clear: both;
  }
+
+ /*** image ***/
 .rogue {
   float: right;
-  margin-right: 101px;
-  padding-top: 150px;px;
-  padding-bottom:
+  margin-right: 59px;
+  padding-top: 129px;
 }
 
  /*** h4 ***/
@@ -126,7 +137,6 @@ h2 span {
   font-family: 'Anonymous Pro', monospace;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 55px;
   margin-left: 59px;
   display: inline;
   float: left;
@@ -138,7 +148,7 @@ h2 span {
 .para-2 {
   font-size: 24px;
   margin-top: 99px;
-  padding-top: 115px;
+  padding-top: 100px;
   padding-left: 59px;
   width: 646px;
 }
@@ -146,7 +156,7 @@ h2 span {
 /*****jubilee austen *****/
 
  .row-3 {
-   padding-top: 103px;
+   padding-top: 150px;
    clear: both;
  }
 
@@ -154,7 +164,7 @@ h2 span {
 .jubilee {
   float:left;
   padding-left: 59px;
-  display: inlin
+  display: inline
 }
 
 /*** h4 ***/
@@ -162,6 +172,7 @@ h2 span {
   font-family: 'Anonymous Pro', monospace;
   font-size: 24px;
   font-weight: bold;
+  margin-top: 110px;
   padding-left: 245px;
   display: inline;
 }
@@ -176,10 +187,88 @@ h2 span {
 }
 
 /***** ABOUT SECTION *****/
-#about  {
-background-image: url("../img/about.png");
-background-repeat: no-repeat;
-height: 471px;
-margin-top: 200px;
-clear:both;
+#about {
+  background-image: url("../img/about.png");
+  background-repeat: no-repeat;
+  background-size: 1350px;
+  height: 526px;
+  margin-top: 590px;
+  clear: both;
+}
+
+.about {
+  color: #fa0075;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  padding-top: 51px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+/*** h5 ***/
+.passionate {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 25px;
+  margin-left: 102px;
+}
+
+.about-para {
+  color: #000;
+  font-size: 24px;
+  padding-left: 102px;
+  padding-right: 600px;
+
+}
+
+/***** CONTACT *****/
+#contact {
+  height: 392px;
+}
+.connect{
+  color: #fa0075;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  text-transform: lowercase;
+  margin-right: 20px;
+
+}
+
+.col-med-4 {
+  display: block;
+  float:left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  line-height: .5;
+  margin-left: 25px;
+  padding: 25px 45px;
+  text-align: center;
+  width: 30%;
+}
+
+.col-med-4 ul {
+  display: block;
+  float: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  line-height: .5;
+}
+
+.col-med-4 ul li {
+  display: block;
+  float: left;
+  padding: 2px;
+  margin-left: 40px;
+  line-height: .5;
+}
+
+
+.footer {
+  color: #fa0075;
+  clear: both;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
 }

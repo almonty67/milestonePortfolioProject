@@ -12,10 +12,11 @@
      href="https://pro.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-POYwD7xcktv3gUeZO5s/9nUbRJG/WOmV6jfEGikMJu77LGYO8Rfs2X7URG822aum" crossorigin="anonymous"> -->
   </head>
   <body>
+    <div class="container-fluid">
       <header>
-        <div class="logo">
-          <h1>Andi Monty | Web Developer/Designer</h1>
-        </div>
+          <h1><span class="name">Andi Monty</span> <br>
+             Web Developer/Designer</h1>
+
 
           <nav class="nav">
               <ul>
@@ -24,9 +25,7 @@
                 <li><a href="#contact">Contact</a></li>
               </ul>
           </nav>
-
-
-        <h2>Let's <span>Code</span> <br>
+            <h2>Let's <span>Code</span> <br>
               Something Cool!</h2>
       </header>
 
@@ -36,7 +35,7 @@
             <h3 class="my-portfolio">My Portfolio</h3>
               <div class="row">
                 <div class="col-med-6 hol-1">
-                  <img class="holstee-img" width="450" height="40"
+                  <img class="holstee-img" width="450" height="450"
                        src="img/holsteeManifesto1.png" alt="Holstee Manifesto">
                 </div>
 
@@ -48,7 +47,7 @@
 
 
              <div class="row-2">
-              <div class="col-med-6">
+              <div class="col-med-6 col-rogue">
                 <img class="rogue" width="450" height="450" src="img/roguepickings.png" alt="Rogue Pickings">
               </div>
               <div class="col-med-6">
@@ -59,9 +58,9 @@
 
 
             <div class="row-3">
-              <div class="
-              col-med-6">
-                <img  class="jubilee" width="450" src="img/jubileeAusten.png" alt="Jubilee Austen">
+              <div class="austen">
+              <div class="col-med-6">
+                <img  class="jubilee" width="450" height="450" src="img/jubileeAusten.png" alt="Jubilee Austen">
               </div><!-- END COLUMN -->
                 <div class="col-med-6">
                   <h4 class="j-austen">Jubliee Austen</h4>
@@ -71,39 +70,60 @@
           </section>
 
           <section id="about">
-                      
-                <h4>About Me</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              </div>
+            <div class="about-me">
+              <h4 class="about">About Me</h4>
+              <h5 class="passionate">I am passioniate about coding</h5>
+              <p class="about-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
           </section>
+
 
           <section id="contact">
-            <div class="row">
-              <h4>Let's Connect</h4>
-              <div class="col-med-6">
-                <h4>Hire Me</h4>
-                <p>555-123-4567</p>
+              <div class="connect">
+                <h5>Let's Connect</h5>
               </div>
-              <div class="col-med-6">
-                <h4>Follow Me</h4>
 
-                 <span class="twitter">
-                  <i class="fab fa-twitter"></i>
-                </span>
-                <span class="linkedin">
-                  <i class="fab fa-linkedin"></i>
-                </span>
-                <span class="github">
-                  <i class="fab fa-github"></i>
-                </span>
+                <div class="row">
+                  <div class="col-med-4 left" float-left>
+                  <h5 class="hire-me">Hire Me</h5>
+                  <p class="phone">555-123-4567</p>
+                </div>
               </div>
-          </div>
+
+
+              <div class="col-med-4 middle" float-left>
+                  <h5 class="follow">Follow</h5>
+                    <ul class="social" float-left>
+                       <li><span class="twitter">
+                        <i class="fab fa-twitter"></i></span>
+                      </li>
+
+                      <li><span class="linkedin">
+                        <i class="fab fa-linkedin"></i></span>
+                      </li>
+
+                      <li><span class="github">
+                        <i class="fab fa-github"></i></span>
+                      </li>
+                    </ul>
+                  </div>
+
+
+                <div class="col-med-4 right" float-right>
+                  <h5 class="meet">Meet Me</h5>
+                  <p class="address">Valparaiso, Indiana</p>
+                  <p class="meetups">Let's go to meetups together</p>
+                </div>
+              </div><!-- END ROW -->
+
           </section>
         </main>
-        <footer class="footer">
-          <p>
-          &copy; 2018 AHA WebDev/ALM
-          </p>
-        </footer>
+         </div>
+         <footer class="footer">
+            <p>
+            &copy; 2018 AHA WebDev/ALM
+            </p>
+          </footer>
+    </div>
   </body>
 </html>
